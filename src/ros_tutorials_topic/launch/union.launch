@@ -1,0 +1,6 @@
+<launch>
+<node pkg="ros_tutorials_topic" type="topic_publisher" name="topic_publisher1"/>
+<node pkg="ros_tutorials_topic" type="topic_subscriber" name="topic_subscriber1"/>
+<node pkg="ros_tutorials_topic" type="topic_publisher" name="topic_publisher2"/>
+<node pkg="ros_tutorials_topic" type="topic_subscriber" name="topic_subscriber2"/>
+</launch>
